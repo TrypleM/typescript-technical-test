@@ -11,7 +11,7 @@ Para lanzar esta aplicación:
 3. Ejecútalo:
 > node todo.js
 
-Necesitarás tener instalad
+Necesitarás tener instalado NodeJS para ejecutarlo.
 
 ### Ejercicios
 1. Convierte el proyecto a Typescript
