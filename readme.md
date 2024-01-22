@@ -18,3 +18,30 @@ Necesitarás tener instalado NodeJS para ejecutarlo.
 2. Agrega la funcionalidad para completar tareas
 3. Divide el código en clases. Escribe en este fichero `readme.md` una propuesta de arquitectura de software para el proyecto.
 4. Teórico: ¿Cómo podríamos convertir la aplicación en una aplicación colaborativa?
+
+## Instalación de la aplicación en typescript
+
+1. Instalamos los modulos de node con
+```
+    npm install
+```
+
+2. Compilamos la aplicación con: 
+```
+    npm run tsc
+```
+
+3. Para lanzar la aplicación usamos:
+```
+    npm start
+```
+
+### Propuesta de Arquitectura
+
+Una buena propuesta de arquitectura para este proyecto podría ser la arquitectura por capas, para así aumentar la modularidad, la reusabilidad
+sea mas facil de mantener y con una mayor escalabilidad.
+
+### Aplicación colaborativa
+
+Podria ser una aplicación colaborativa si usasemos una base de datos en linea, con esto y unos pequeños ajustes podría llegar a ser una aplicación colaborativa.
+Para ello tendriamos que tener en cuenta la edición de las tareas, ya que dos usuarios podria estar intentando editar el mismo dato al mismo tiempo.

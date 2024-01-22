@@ -1,0 +1,19 @@
+{
+  "name": "typescript-technical-test",
+  "version": "1.0.0",
+  "description": "Esta prueba técnica está pensada para que el candidato pueda demostrar su conocimiento del código, así como su capacidad de organización y su capacidad de trabajo en equipo.",
+  "main": "todo.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node build/app.js",
+    "dev": "tsc && node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  }
+}
